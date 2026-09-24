@@ -57,28 +57,48 @@ Claude cleans those up.
 
 **2. Ask Claude**
 
-In **Claude Desktop**, drag your recording into a chat. In **Claude Code**, give the file's
-location instead, for example "the recording at ~/Desktop/recording.mov". Then say what it
-shows. Some examples:
+Type **`/product-demo-video`** and then describe the video you want. It works the same way in
+Claude Desktop and Claude Code.
 
-**A quick social clip**
-> Make a product demo from this recording. It shows how to create a project in Acme.
-> Add step captions, an intro saying "Ship faster with Acme", and an ending that says "Try it at acme.com".
+**Claude Desktop:** drag your recording into the chat, then type:
+```
+/product-demo-video Make a product demo from this recording. It shows how to create a project in Acme.
+```
 
-**A vertical video for Reels, TikTok or Shorts**
-> Turn this into a 20-second vertical video for Instagram Reels. It shows our new AI search.
-> Zoom in on the search box and the results, and use our brand colour #6366F1.
+**Claude Code:** add the location of your recording after the command:
+```
+/product-demo-video ~/Desktop/recording.mov Make a product demo. It shows how to create a project in Acme.
+```
 
-**A step-by-step tutorial**
-> Make a tutorial from this recording showing how to invite a teammate.
-> Number each step, add a highlight box on the Invite button, and keep it under a minute.
+You can also skip the command and just ask, for example "make a product demo video from this
+recording". Claude will pick the skill on its own.
 
-**A launch video with music**
-> Make a launch video from this recording for our new dashboard. Use the attached music,
-> a dark style, and an ending with "Get early access at acme.com". Also make a 1:1 version for LinkedIn.
+**More examples** (in Claude Code, put your file's location after `/product-demo-video`):
 
-**A GIF for your website or docs**
-> Make a short looping GIF from this recording showing how the export button works. No title screens.
+*A quick social clip*
+```
+/product-demo-video Make a product demo from this recording. It shows how to create a project in Acme. Add step captions, an intro saying "Ship faster with Acme", and an ending that says "Try it at acme.com".
+```
+
+*A vertical video for Reels, TikTok or Shorts*
+```
+/product-demo-video Turn this into a 20-second vertical video for Instagram Reels. It shows our new search feature. Zoom in on the search box and the results, and use our brand colour #6366F1.
+```
+
+*A step-by-step tutorial*
+```
+/product-demo-video Make a tutorial from this recording showing how to invite a teammate. Number each step, add a highlight box on the Invite button, and keep it under a minute.
+```
+
+*A launch video with music*
+```
+/product-demo-video Make a launch video from this recording for our new dashboard. Use the attached music, a dark style, and an ending with "Get early access at acme.com". Also make a 1:1 version for LinkedIn.
+```
+
+*A GIF for your website or docs*
+```
+/product-demo-video Make a short looping GIF from this recording showing how the export button works. No title screens.
+```
 
 You don't need to use these exact words. Describe what you want as you would to a video editor.
 
