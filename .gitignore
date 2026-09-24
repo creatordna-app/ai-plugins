@@ -1,0 +1,8 @@
+# local test recordings and render output
+*.mov
+*.mp4
+*.gif
+demo-work/
+__pycache__/
+*.pyc
+.DS_Store
