@@ -1,0 +1,13 @@
+{
+  "name": "product-demo",
+  "description": "Turn raw screen recordings into polished product demo videos: trims dead time, zooms onto the action, adds captions, title cards and music, and exports 16:9, 9:16, 1:1 and GIF.",
+  "version": "1.0.0",
+  "author": {
+    "name": "CreatorDNA",
+    "url": "https://creatordna.app"
+  },
+  "homepage": "https://creatordna.app",
+  "repository": "https://github.com/creatordna-app/ai-plugins",
+  "license": "MIT",
+  "keywords": ["video", "product-demo", "screen-recording", "tutorial", "marketing"]
+}

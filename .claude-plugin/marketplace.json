@@ -1,0 +1,17 @@
+{
+  "name": "creatordna",
+  "owner": {
+    "name": "CreatorDNA",
+    "url": "https://creatordna.app"
+  },
+  "metadata": {
+    "description": "Free Claude plugins by CreatorDNA."
+  },
+  "plugins": [
+    {
+      "name": "product-demo",
+      "source": "./",
+      "description": "Turn raw screen recordings into polished product demo videos."
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+<img src="assets/logo.png" alt="Product Demo logo" width="96">
+
 # Product Demo: turn screen recordings into polished demo videos
 
 A free Claude skill by [CreatorDNA](https://creatordna.app). Give it a rough screen recording and Claude edits it into a clean,
@@ -15,10 +17,28 @@ repository for you to read.
 
 ## Install
 
+Pick whichever way suits you. Both install the same skill.
+
+### Option A: Install as a plugin in Claude Code (easiest to keep updated)
+
+Run these two commands inside Claude Code:
+
+```
+/plugin marketplace add creatordna-app/ai-plugins
+/plugin install product-demo@creatordna
+```
+
+Then restart Claude Code. To check it worked, type `/skills` and look for **product-demo-video**.
+
+**To update later,** run `/plugin marketplace update creatordna`.
+**To remove it,** run `/plugin uninstall product-demo@creatordna`.
+
+### Option B: Download the zip (Claude Desktop or Claude Code)
+
 First, download **[product-demo-video.zip](product-demo-video.zip)**. Click it on this page, then
 click the download button. It goes to your **Downloads** folder.
 
-### Claude Desktop
+**Claude Desktop**
 
 1. Open the **Claude Desktop** app and click **Customize**.
 2. Go to **Skills** and click **Upload**.
@@ -26,24 +46,25 @@ click the download button. It goes to your **Downloads** folder.
 
 The skill is now ready to use in any chat.
 
-### Claude Code
+**Claude Code**
 
 Open a terminal and paste one command. It unzips the skill into Claude Code's skills folder.
 
-**Mac or Linux:**
+Mac or Linux:
 ```bash
 mkdir -p ~/.claude/skills && unzip -o ~/Downloads/product-demo-video.zip -d ~/.claude/skills
 ```
 
-**Windows (PowerShell):**
+Windows (PowerShell):
 ```powershell
 Expand-Archive -Force "$HOME\Downloads\product-demo-video.zip" "$HOME\.claude\skills"
 ```
 
 Then restart Claude Code. To check it worked, type `/skills` and look for **product-demo-video**.
 
-**To update later,** download the new zip and run the same command again.
-**To remove it,** delete the `product-demo-video` folder inside `~/.claude/skills`.
+**To update later,** download the new zip and do the same steps again.
+**To remove it,** delete the skill in Claude Desktop, or delete the `product-demo-video` folder
+inside `~/.claude/skills`.
 
 ## How to use it
 
@@ -57,7 +78,7 @@ Claude cleans those up.
 
 **2. Ask Claude**
 
-Type **`/product-demo-video`** and then describe the video you want. It works the same way in
+Type **`/product-demo-video`** (if you installed it as a plugin, it shows as `/product-demo:product-demo-video`) and then describe the video you want. It works the same way in
 Claude Desktop and Claude Code.
 
 **Claude Desktop:** drag your recording into the chat, then type:
