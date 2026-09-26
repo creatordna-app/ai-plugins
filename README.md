@@ -24,7 +24,7 @@ Pick whichever way suits you. Both install the same skill.
 Run these two commands inside Claude Code:
 
 ```
-/plugin marketplace add creatordna-app/ai-plugins
+/plugin marketplace add rivo-labs-dev/ai-plugins
 /plugin install product-demo@creatordna
 ```
 
@@ -35,7 +35,7 @@ Then restart Claude Code. To check it worked, type `/skills` and look for **prod
 
 ### Option B: Download the zip (Claude Desktop or Claude Code)
 
-First, download **[product-demo-video.zip](https://github.com/creatordna-app/ai-plugins/releases/latest/download/product-demo-video.zip)**.
+First, download **[product-demo-video.zip](https://github.com/rivo-labs-dev/ai-plugins/releases/latest/download/product-demo-video.zip)**.
 It goes to your **Downloads** folder.
 
 **Claude Desktop**
