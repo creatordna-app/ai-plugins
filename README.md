@@ -35,8 +35,8 @@ Then restart Claude Code. To check it worked, type `/skills` and look for **prod
 
 ### Option B: Download the zip (Claude Desktop or Claude Code)
 
-First, download **[product-demo-video.zip](product-demo-video.zip)**. Click it on this page, then
-click the download button. It goes to your **Downloads** folder.
+First, download **[product-demo-video.zip](https://github.com/creatordna-app/ai-plugins/releases/latest/download/product-demo-video.zip)**.
+It goes to your **Downloads** folder.
 
 **Claude Desktop**
 
